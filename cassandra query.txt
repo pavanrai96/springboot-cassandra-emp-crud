@@ -1,0 +1,17 @@
+
+
+create keyspace springbootcassandra with replication={'class':'SimpleStrategy', 'replication_factor':1};
+
+use springbootcassandra;
+ 
+CREATE TABLE emp(
+   empId int PRIMARY KEY,
+   empName text,
+);
+
+
+
+
+spring.data.cassandra.keyspace-name=springbootcassandra
+spring.data.cassandra.contact-points=springbootcassandra.com
+spring.data.cassandra.port=9042

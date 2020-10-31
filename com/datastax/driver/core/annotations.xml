@@ -1,0 +1,5 @@
+<root>
+    <item name='com.datastax.driver.core.LocalDate int getDay()'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>
